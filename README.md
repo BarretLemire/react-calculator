@@ -1,4 +1,5 @@
-# React Playground
+# React-Calculator
+# Basic react calculator using vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
