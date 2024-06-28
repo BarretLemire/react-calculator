@@ -1,14 +1,20 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
+import Calculator from "./Calculator"
 
-function App() {
+
+
+export default function App() {
   return (
     <>
-    <h1>Hello</h1>
+      <header>
+        <h1>Simple Calculator</h1>
+      </header>
+      <Calculator />
+      <footer>
+        <p>Created by the Grand Inquisitor</p>
+      </footer>
     </>
-  )
+  );
 }
 
-export default App
+
